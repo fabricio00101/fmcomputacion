@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: calc(100vh - 160px);
+    /* ajustá 160px a la altura real de tu header+footer */
+}
+
+
+body {
+
+    background-color: #1e293b;
+    font-family: "Roboto";
+    color: #75a1ff;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    font-family: "Exo 2";
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6em;
+    padding: 1em;
+    border-bottom: solid #94a3b8 1.5px;
+    box-shadow: 0px 0px 5px #38bdf8;
+
+}
+
+.navegacion img {
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 5px #38bdf8);
+}
+
+.navegacion h1 {
+    font-weight: 500;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.navegacion_links {
+    display: flex;
+    gap: 5em;
+    list-style: none;
+}
+
+.navegacion_links a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: #38bdf8;
+    padding: 0.5em;
+    transition: color 0.3s ease;
+}
+
+.navegacion_links a:hover {
+    border: solid 0.5px #94a3b8;
+    color: black;
+    background-color: #0ea5e9;
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 5em;
+
+}
+
+.caja {
+    border: solid #94a3b8 0.5px;
+    display: inline-block;
+    padding: 3em;
+    box-shadow: 0px 0px 5px #38bdf8;
+    border-radius: 15px;
+}
+
+.caja h2 {
+    font-weight: 100;
+
+}
+
+.footer {
+    display: flex;
+    border-top: solid 0.5px #94a3b8;
+    box-shadow: 0px 0px 5px#38bdf8;
+    justify-content: space-between;
+    gap: 5em;
+    padding: 1em
+}
+
+.footer p {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.footer_links a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: #38bdf8;
+    padding: 0.5em;
+    transition: color 0.3s ease;
+}
+
+.footer_links a:hover {
+    border: solid 0.5px #94a3b8;
+    color: black;
+    background-color: #0ea5e9;
+    border-radius: 6px;
+}
+
+.footer_contacto img {
+    width: 2em;
+    filter: drop-shadow(0px 0px 1.5px #38bdf8);
+}

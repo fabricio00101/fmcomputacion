@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navegacion">
+            <img src="../assets/img/logo.png" alt="">
+            <h1>FM Computación</h1>
+            <ul class="navegacion_links">
+                <li><a href="../index.html">Inicio</a>
+                </li>
+                <li><a href="../servicios/">Servicios</a>
+                </li>
+                <li><a href="#sobremi">Sobre mí</a>
+                </li>
+                <li><a href="../contacto/index.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenido">
+            <div class="titulos_formulario">
+                <h1>Formulario de contacto</h1>
+                <p>Podés contactarte con nosotros completando este formulario.</p>
+            </div>
+
+            <div class="formulario">
+                <form action="" class="form" method="post">
+                    <h2 class="form_titulo">Formulario de contacto</h2>
+                    <div class="form__input">
+                        <label for="nombre">Nombre Completo</label>
+                        <input required type="text" placeholder="Nombre Completo" id="nombre">
+                    </div>
+                    <div class="form__input">
+                        <label for="email">Email</label>
+                        <input required type="email" placeholder="ejemplo@gmail.com" id="email">
+                    </div>
+                    <div class="form__input">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Dejá tu mensaje acá"></textarea>
+                    </div>
+                    <div class="tyc">
+                        <label for="tyc">Acepto los terminos y condiciones
+                            <input required type="checkbox" class="checkbox" name="tyc" id="tyc" >
+                        </label>
+                    </div>
+                    <button class="form_boton" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Reparamos tu PC como si fuera la nuestra. 💻⚡</p>
+        <ul class="footer_links">
+            <li><a href="../index.html">Inicio</a>
+            </li>
+            <li><a href="../servicios/index.html">Servicios</a>
+            </li>
+            <li><a href="#sobremi">Sobre mí</a>
+            </li>
+            <li><a href="../contacto/index.html">Contacto</a>
+            </li>
+        </ul>
+        <ul class="footer_contacto">
+            <li><a href="#inicio"> <img src="../assets/img/wplogo.png" alt="WhattsApp"></a>
+            </li>
+            <li><a href="#servicios"><img src="../assets/img/ig-logo.png" alt="Instagram"></a>
+            </li>
+            <li><a href="#sobremi"><img src="../assets/img/x-logo.png" alt="X"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

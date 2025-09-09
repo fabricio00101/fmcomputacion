@@ -1,0 +1,89 @@
+.titulos_formulario {
+    padding: 1em;
+    text-align: center;
+    
+}
+.titulos_formulario h1{
+    text-transform: uppercase;
+}
+.titulos_formulario p{
+    font-weight: 200;
+}
+.formulario {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    background-color: #1e293b;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 7px #38bdf8;
+    border-radius: 10px;
+    font-size: 15px;
+
+
+}
+
+.form_titulo {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.form__input {
+    padding: 10px 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-left: 3px solid #75a1ff;
+    border-radius: 5px;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 105px;
+    resize: none;
+
+}
+
+
+
+label {
+    font-size: 0.9em;
+}
+
+.form_boton {
+    display: block;
+    margin: 20px auto;
+    height: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+    background: #38bdf8;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.form_boton:hover {
+    background: #0ea5e9;
+}
+
+.tyc {
+    margin-left: 20px;
+}
+
+.checkbox {
+    width: auto;
+    height: 10px;
+}
