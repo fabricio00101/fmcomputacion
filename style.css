@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-main {
-    min-height: calc(100vh - 160px);
-
-}
 
 
 body {
@@ -15,9 +11,6 @@ body {
     background-color: #1e293b;
     font-family: "Roboto";
     color: #75a1ff;
-    margin: 0;
-    padding: 0;
-
 }
 h1{
     font-family: "Exo 2";
@@ -38,7 +31,7 @@ h1{
     width: 8em;
     display: flex;
     justify-content: center;
-    filter: drop-shadow(0px 0px 5px #38bdf8);
+    filter: drop-shadow(0px 0px 2px #38bdf8);
 }
 
 .navegacion h1 {
