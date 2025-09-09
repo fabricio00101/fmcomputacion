@@ -1,14 +1,17 @@
 .titulos_formulario {
     padding: 1em;
     text-align: center;
-    
+
 }
-.titulos_formulario h1{
+
+.titulos_formulario h1 {
     text-transform: uppercase;
 }
-.titulos_formulario p{
+
+.titulos_formulario p {
     font-weight: 200;
 }
+
 .formulario {
     display: flex;
     margin-top: 20px;
@@ -86,4 +89,88 @@ label {
 .checkbox {
     width: auto;
     height: 10px;
+}
+
+@media (max-width: 768px) {
+    .navegacion {
+        flex-direction: column;
+        /* logo + título arriba, menú abajo */
+        gap: 1em;
+        text-align: center;
+    }
+
+    .navegacion img {
+        width: 5em;
+        /* logo más chico */
+    }
+
+    .navegacion h1 {
+        font-size: 2em;
+        /* título más chico */
+    }
+
+    .navegacion_links {
+        flex-direction: column;
+        /* menú en columna */
+        gap: 1em;
+    }
+
+    .container {
+        flex-direction: column;
+        /* caja en columna */
+        padding: 2em;
+    }
+
+    .caja {
+        padding: 1.5em;
+        width: 100%;
+        /* ocupa todo el ancho disponible */
+        box-sizing: border-box;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1em;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 1em;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+/* Tablets (pantallas hasta 1024px) */
+@media (max-width: 1024px) {
+    .navegacion {
+        gap: 2em;
+    }
+
+    .navegacion h1 {
+        font-size: 3em;
+    }
+
+    .navegacion_links {
+        gap: 2em;
+    }
+
+    .container {
+        flex-direction: column;
+        /* contenido en columna */
+        padding: 3em;
+    }
+
+    .caja {
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }

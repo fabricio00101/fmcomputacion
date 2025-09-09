@@ -6,7 +6,7 @@
 
 main {
     min-height: calc(100vh - 160px);
-    /* ajustá 160px a la altura real de tu header+footer */
+
 }
 
 
@@ -123,4 +123,90 @@ li {
 .footer_contacto img {
     width: 2em;
     filter: drop-shadow(0px 0px 1.5px #38bdf8);
+}
+@media (max-width: 768px) {
+    .navegacion {
+        flex-direction: column;
+        /* logo + título arriba, menú abajo */
+        gap: 1em;
+        text-align: center;
+    }
+    .caja img{
+    width: 100%;
+}
+
+    .navegacion img {
+        width: 5em;
+        /* logo más chico */
+    }
+
+    .navegacion h1 {
+        font-size: 2em;
+        /* título más chico */
+    }
+
+    .navegacion_links {
+        flex-direction: column;
+        /* menú en columna */
+        gap: 1em;
+    }
+
+    .container {
+        flex-direction: column;
+        /* caja en columna */
+        padding: 2em;
+    }
+
+    .caja {
+        padding: 1.5em;
+        width: 100%;
+        /* ocupa todo el ancho disponible */
+        box-sizing: border-box;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1em;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 1em;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+/* Tablets (pantallas hasta 1024px) */
+@media (max-width: 1024px) {
+    .navegacion {
+        gap: 2em;
+    }
+
+    .navegacion h1 {
+        font-size: 3em;
+    }
+
+    .navegacion_links {
+        gap: 2em;
+    }
+
+    .container {
+        flex-direction: column;
+        /* contenido en columna */
+        padding: 3em;
+    }
+
+    .caja {
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
