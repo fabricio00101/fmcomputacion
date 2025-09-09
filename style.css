@@ -178,7 +178,10 @@ li {
     .navegacion {
         gap: 2em;
     }
+.caja img{
+    width: 100%;
 
+}
     .navegacion h1 {
         font-size: 3em;
     }
