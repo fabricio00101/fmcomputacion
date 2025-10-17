@@ -32,13 +32,13 @@ h1{
 }
 
 .navegacion img {
-    width: 8em;
+    width: 10em;
     display: flex;
     justify-content: center;
     filter: drop-shadow(0px 0px 2px #38bdf8);
 }
 
-.navegacion h1 {
+.navegacion .titulo {
     font-weight: 500;
     font-size: 4em;
     text-transform: uppercase;
@@ -51,6 +51,7 @@ h1{
 }
 
 .navegacion_links a,
+li,  .footer_links a,
 li {
     text-decoration: none;
     list-style: none;
@@ -59,7 +60,7 @@ li {
     transition: color 0.3s ease;
 }
 
-.navegacion_links a:hover {
+.navegacion_links a:hover, .footer_links a:hover {
     border: solid 0.5px #94a3b8;
     color: black;
     background-color: #0ea5e9;
@@ -101,24 +102,6 @@ li {
     font-size: 1.5em;
     font-weight: 200;
 }
-
-.footer_links a,
-li {
-    text-decoration: none;
-    list-style: none;
-    color: #38bdf8;
-    padding: 0.5em;
-    transition: color 0.3s ease;
-}
-
-.footer_links a:hover {
-    border: solid 0.5px #94a3b8;
-    color: black;
-    background-color: #0ea5e9;
-    border-radius: 6px;
-    box-shadow: 0px 0px 2.5px rgba(255, 255, 255, 0.705);
-}
-
 .footer_contacto img {
     width: 2em;
     filter: drop-shadow(0px 0px 1.5px #38bdf8);
